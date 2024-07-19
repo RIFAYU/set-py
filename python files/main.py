@@ -15,3 +15,5 @@ for row in rows:
     cols = row.find_all("td")
     cols = [ele.text.strip() for ele in cols]
     print(*cols)
+    
+print("Data scraped successfully!")
